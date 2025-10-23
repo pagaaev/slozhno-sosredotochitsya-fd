@@ -12,7 +12,8 @@
   --accent-color: #FF0070;
   --btn-color: #FF0070;
   --title-color: #DB00FF;
-  --subtitle-color: #DB00FF;
+  --sub-text-color: #000028;
   --text-color: #F1B2CE;
-  --background-image-dark: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
+  --btn-text: #FF0070;
 }
