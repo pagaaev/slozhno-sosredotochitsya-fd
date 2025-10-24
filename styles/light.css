@@ -20,6 +20,10 @@
   --btn-text: #353430;
 }
 
+.theme-light .header__decor-rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
   --background-image: url(../images/cover-image-light.png);
@@ -32,16 +36,8 @@
   --btn-color: #353430;
   --btn-text: #353430;
   }
+  .header__decor-rec {
+    display: none;
+  }
 }
 
-:root.theme-light .header__decor-rec {
-  display: none;
-}
-
-:root.theme-light main {
-  background-color: var(--background-image-dark);
-}
-
-:root.theme-light .footer {
-  background-color: var(--background-image-dark);
-}
