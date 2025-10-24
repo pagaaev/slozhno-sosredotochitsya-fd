@@ -14,7 +14,7 @@
 
 .header {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   min-height: 668px;
   flex-direction: column;
   display: flex;
@@ -118,26 +118,30 @@
 
 /* Заголовок шапки */
 
+.header__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .header__title {
-  position: absolute;
-  top: 41.5%;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   line-height: 83%;
   color: var(--title-color, #db00ff);
   text-shadow: 4px 4px 0px var(--accent-color, #ff0070);
   margin-left: -20px;
+  margin-top: 28.5%;
 }
 
 .header__subtitle {
-  width: 48%;
+  width: 50%;
   height: auto;
-  position: absolute;
-  top: 73.3%;
-  left: 50.1%;
   font-weight: 700;
   color: var(--bg, #000028);
   background-color: var(--accent-color, #ff0070);
+  margin-left: 50%;
+  margin-top: 10.9%;
 }
 
 /* Первая секция */
@@ -363,10 +367,8 @@
 }
 
 @media (max-width:768px) {
-  .header,
-  .section__focus {
+  .header {
     max-width: 100%;
-    height: auto;
   }
   .header__theme-menu {
     display: flex;
@@ -384,11 +386,12 @@
   }
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    top: 45.5%;
+    margin-top: 61%;
   }
   .header__subtitle {
-    width: 47%;
-    top: 71%;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 22%;
   }
   .focus__title {
     flex: 0 0 236px;
@@ -421,13 +424,13 @@
     top: 11.3%;
   }
   .header__title {
-    top: 35.1%;
+    margin-top: 63%;
     margin-left: -2px;
   }
   .header__subtitle {
-    width: 94%;
-    top: 72.8%;
-    left: 3%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15%;
   }
   .section__focus {
     flex-direction: column;
