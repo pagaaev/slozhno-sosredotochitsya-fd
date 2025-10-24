@@ -20,6 +20,11 @@
   --btn-text: #353430;
 }
 
+.theme-light .header__subtitle {
+  color: var(--subtitle-color);
+  background-color: var(--accent-color);
+}
+
 .theme-light .header__decor-rec {
   display: none;
 }

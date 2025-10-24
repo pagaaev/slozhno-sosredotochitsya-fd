@@ -17,3 +17,8 @@
   --background-image: url(../images/cover-image-dark.png);
   --btn-text: #FF0070;
 }
+
+.theme-dark .header__subtitle {
+  color: var(--sub-text-color);
+  background-color: var(--accent-color);
+}
