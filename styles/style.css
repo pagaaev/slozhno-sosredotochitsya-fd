@@ -155,7 +155,7 @@
 
 .focus__title {
   flex: 0 0 314px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -181,14 +181,14 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .focus__text {
   color: var(--text-color, #f1b2ce);
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   overflow-wrap: break-word;
 }
 
@@ -208,7 +208,7 @@
 }
 
 .distraction__title {
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -231,14 +231,14 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .distraction__text {
   color: var(--text-color, #f1b2ce);
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   overflow-wrap: break-word;
 }
 
@@ -252,7 +252,7 @@
 
 .improvement__title {
   flex: 0 0 315px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -272,7 +272,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .improvement__content {
@@ -282,14 +282,14 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .improvement__text {
   color: var(--text-color, #f1b2ce);
   font-size: 18px;
   line-height: 23.4px;
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   overflow-wrap: break-word;
 }
 
@@ -301,7 +301,7 @@
 }
 
 .gallary__title {
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
