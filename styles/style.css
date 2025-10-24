@@ -364,7 +364,6 @@
   color: var(--title-color);
   font-weight: 700;
   line-height: 82.5%;
-  
 }
 
 @media (max-width:768px) {
@@ -386,7 +385,7 @@
     padding-bottom: 2.3px;
   }
   .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     margin-top: 61%;
   }
   .header__subtitle {
@@ -405,6 +404,9 @@
   }
   .improvement__title {
     flex: 0 0 236px;
+  }
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
 
@@ -431,7 +433,7 @@
   .header__subtitle {
     width: 100%;
     margin-left: 0;
-    margin-top: 15%;
+    margin-top: 16.9%;
   }
   .section__focus {
     flex-direction: column;
