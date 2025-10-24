@@ -10,6 +10,10 @@
   background-color: var(--bg, #000028);
 }
 
+.content-section--column {
+  flex-direction: column;
+}
+
 /* Хэдэр */
 
 .header {
@@ -146,15 +150,16 @@
 
 /* Первая секция */
 
-.section__focus {
+.content-section {
   max-width: 984px;
   display: flex;
   margin: 60px 20px 0 20px;
   gap: 20px;
 }
 
-.focus__title {
-  flex: 0 0 314px;
+.content-section__title {
+  width: 100%;
+  max-width: 315px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 18px;
@@ -162,20 +167,24 @@
   color: var(--btn-color, #FF0070);
 }
 
-.focus__card-container {
+.card-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
   flex: 1;
 }
 
-.focus__card {
+.card-container--row {
+  flex-direction: row;
+}
+
+.card {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.focus__subtitle {
+.card__subtitle {
   color: var(--bg, #000028);
   background-color: var(--accent-color, #FF0070);
   font-weight: 700;
@@ -184,7 +193,7 @@
   font-family: 'IBM Plex Mono', monospace;
 }
 
-.focus__text {
+.card__text {
   color: var(--text-color, #f1b2ce);
   font-size: 18px;
   line-height: 23.4px;
