@@ -399,7 +399,8 @@
     flex-direction: column;
   }
   .distraction__title {
-    width: 236px;
+    width: 100%;
+    max-width: 236px;
   }
   .improvement__title {
     flex: 0 0 236px;
