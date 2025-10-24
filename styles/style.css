@@ -378,15 +378,14 @@
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 19%;
+    margin-top: 24%;
   }
   .header__theme-menu-button {
     padding-bottom: 2.3px;
   }
   .header__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    margin-top: 61%;
+    margin-top: 23.4%;
   }
   .header__subtitle {
     width: 50%;
@@ -424,10 +423,10 @@
     margin: 10px;
   }
   .header__theme-menu-list {
-    top: 11.3%;
+    margin-top: 18.5%;
   }
   .header__title {
-    margin-top: 63%;
+    margin-top: 17%;
     margin-left: -2px;
   }
   .header__subtitle {
