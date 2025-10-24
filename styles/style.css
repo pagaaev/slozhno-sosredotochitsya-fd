@@ -348,7 +348,8 @@
 /* Footer */
 
 .footer {
-  min-block-size: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: 20px;
   position: relative;
   display: flex;
