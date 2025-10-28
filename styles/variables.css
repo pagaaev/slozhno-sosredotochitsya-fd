@@ -9,3 +9,12 @@
   --btn-color:#ff0070;
   --background-image: url(../images/cover-image-dark.png);
 }
+
+body {
+  background-image: var(--background-image);
+  background-color: #000028;
+}
+
+.rec {
+  display: block;
+}
