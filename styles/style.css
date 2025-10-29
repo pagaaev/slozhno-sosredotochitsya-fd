@@ -141,7 +141,7 @@
 .header__subtitle {
   width: 50%;
   height: auto;
-  justify-self: end; 
+  justify-self: end;
   align-self: end;
   font-weight: 700;
   color: var(--bg, #000028);
@@ -472,7 +472,7 @@ outline: 1px solid var(--accent-color, #FF0070);
     flex-direction: column;
     margin: 40px 10px 50px 10px;
   }
-  .content-section__title  {
+  .content-section__title {
     width: 100%;
     max-width: 100%;
   }

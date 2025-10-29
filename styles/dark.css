@@ -23,6 +23,6 @@
   background-color: var(--accent-color);
 }
 
-.theme-dark .rec {
-  display: block;
+.theme-dark .header__decor-rec {
+  display: flex;
 }
