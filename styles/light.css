@@ -18,6 +18,7 @@
   --bg: #353430;
   --btn-color: #353430;
   --btn-text: #353430;
+  --main-text-color: #FF8DCB;
 }
 
 .theme-light .header__subtitle {
@@ -41,6 +42,7 @@
   --btn-color: #353430;
   --btn-text: 353430;
   --accent-color-transparent: #353430;
+  --main-text-color: #FF8DCB;
   }
   .header__decor-rec {
     display: none;

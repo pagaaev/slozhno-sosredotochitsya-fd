@@ -9,6 +9,7 @@
   --btn-color:#ff0070;
   --background-image: url(../images/cover-image-dark.png);
   --accent-color-transparent: rgba(255, 0, 112, 0.4);
+  --main-text-color: #FF0070;
 }
 
 body {

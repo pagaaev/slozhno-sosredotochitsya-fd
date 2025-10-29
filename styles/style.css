@@ -213,7 +213,7 @@
 
 .text__link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
+  text-shadow: 2px 2px 0 var(--main-text-color);
 }
 
 .text__link:focus {
@@ -221,7 +221,7 @@
 }
 
 .link:focus-visible {
-outline: 1px solid var(--accent-color, #FF0070);
+outline: 1px solid var(--main-text-color);
 } 
 
 /* Вторая секция */
