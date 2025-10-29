@@ -443,6 +443,12 @@ outline: 1px solid var(--border-text-color);
   }
 }
 
+@media (min-width: 668px) and (max-width: 767px) {
+  .header {
+    min-height: 768px;
+  }
+}
+
 @media (max-width:668px) {
  .header {
   padding: 10px;

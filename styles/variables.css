@@ -13,11 +13,6 @@
   --border-text-color: #F1B2CE;
 }
 
-body {
-  background-image: var(--background-image);
-  background-color: #000028;
-}
-
-.rec {
+.header__decor-rec {
   display: block;
 }
