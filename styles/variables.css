@@ -10,6 +10,7 @@
   --background-image: url(../images/cover-image-dark.png);
   --accent-color-transparent: rgba(255, 0, 112, 0.4);
   --main-text-color: #FF0070;
+  --border-text-color: #F1B2CE;
 }
 
 body {

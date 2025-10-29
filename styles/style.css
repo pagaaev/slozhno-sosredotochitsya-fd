@@ -220,8 +220,8 @@
   outline: none;
 }
 
-.link:focus-visible {
-outline: 1px solid var(--main-text-color);
+.text__link:focus-visible {
+outline: 1px solid var(--border-text-color);
 } 
 
 /* Вторая секция */
