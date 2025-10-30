@@ -224,6 +224,10 @@
 outline: 1px solid var(--border-text-color);
 } 
 
+.text__link:hover {
+  border-block-end: 1px solid var(--main-text-color);
+}
+
 /* Вторая секция */
 
 .section__distraction {
